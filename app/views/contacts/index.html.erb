@@ -1,0 +1,7 @@
+<% if !@contacts.nil?%>
+  <% @contacts.each do |contact|%>
+  <ul>
+    <li><%= contact[:name]%> :  <%= contact[:email]%></li>
+  </ul> 
+  <%end%>
+<%end%>
